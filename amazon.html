@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon.com | Shop Online for Electronics, Apparel & More</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="amazon.css">
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <a id="logo" href="#">amazon<span>.com</span></a>
+            <div id="search-container">
+                <input type="text" placeholder="Search Amazon.com" aria-label="Search">
+                <button type="submit" aria-label="Search Submit">
+                    <svg class="search-icon" viewBox="0 0 24 24">
+                        <path d="M15.5 14h-.79l-.28-.27a6.5 6.5 0 001.48-5.34c-.47-2.78-2.79-5-5.59-5.34a6.505 6.505 0 00-7.27 7.27c.34 2.8 2.56 5.12 5.34 5.59a6.5 6.5 0 005.34-1.48l.27.28v.79l4.25 4.25c.41.41 1.08.41 1.49 0 .41-.41.41-1.08 0-1.49L15.5 14zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
+                    </svg>
+                </button>
+            </div>
+            <div id="nav-actions">
+                <a href="#" class="nav-item">
+                    <span class="nav-line-1">Hello, Sign in</span>
+                    <span class="nav-line-2">Account & Lists</span>
+                </a>
+                <a href="#" class="nav-item">
+                    <span class="nav-line-1">Returns</span>
+                    <span class="nav-line-2">& Orders</span>
+                </a>
+                <a href="#" id="cart-btn" class="nav-item">
+                    <div class="cart-icon-wrapper">
+                        <span id="cart-count">2</span>
+                        <svg class="cart-icon" viewBox="0 0 24 24">
+                            <path d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"/>
+                        </svg>
+                    </div>
+                    <span class="nav-line-2 cart-text">Cart</span>
+                </a>
+            </div>
+        </nav>
+        <div id="subnav">
+            <a href="#">All</a>
+            <a href="#">Today's Deals</a>
+            <a href="#">Customer Service</a>
+            <a href="#">Registry</a>
+            <a href="#">Gift Cards</a>
+            <a href="#">Sell</a>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="hero-image-container">
+                <img src="images/hero_banner.png" alt="Prime Day Promotion Banner">
+                <div class="hero-overlay"></div>
+            </div>
+            <div class="hero-content">
+                <h1>Welcome to next-gen shopping</h1>
+                <p>Enjoy exclusive member deals, fast shipping, and smart tech designed for your lifestyle.</p>
+                <a href="#" class="btn-primary">Explore Now</a>
+            </div>
+        </section>
+
+        <section id="grid-container">
+            <div class="card" id="card-gaming">
+                <h2>Gear up for gaming</h2>
+                <div class="card-image">
+                    <img src="images/gaming_gear.png" alt="Neon Gaming Headset">
+                </div>
+                <a href="#" class="card-link">Shop all gaming accessories</a>
+            </div>
+
+            <div class="card" id="card-audio">
+                <h2>Latest in premium audio</h2>
+                <div class="card-image">
+                    <img src="images/audio_tech.png" alt="Wireless Headphones">
+                </div>
+                <a href="#" class="card-link">Explore sound systems</a>
+            </div>
+
+            <div class="card" id="card-smart">
+                <h2>Smart home tech</h2>
+                <div class="card-image">
+                    <img src="images/smart_home.png" alt="Smart Home Speaker">
+                </div>
+                <a href="#" class="card-link">Automate your home</a>
+            </div>
+
+            <div class="card" id="card-decor">
+                <h2>Home & Desk Decor</h2>
+                <div class="card-image">
+                    <img src="images/aesthetic_decor.png" alt="Minimalist Lamp">
+                </div>
+                <a href="#" class="card-link">Discover minimalism</a>
+            </div>
+        </section>
+
+        <section id="deals-carousel">
+            <div class="carousel-header">
+                <h2>Today's Deals</h2>
+                <a href="#" class="carousel-see-all">See all deals</a>
+            </div>
+            <div class="carousel-track">
+                <div class="carousel-item">
+                    <div class="carousel-image-wrapper">
+                        <img src="images/smart_watch.png" alt="Smart Watch Deal">
+                    </div>
+                    <div class="deal-badge-row">
+                        <span class="discount-badge">Up to 30% off</span>
+                        <span class="deal-type">Deal of the Day</span>
+                    </div>
+                    <p class="deal-price">$129.00 <span>List Price: $189.99</span></p>
+                    <p class="deal-title">Smartwatches & Wearables</p>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="carousel-image-wrapper">
+                        <img src="images/digital_camera.png" alt="Camera Deal">
+                    </div>
+                    <div class="deal-badge-row">
+                        <span class="discount-badge">Up to 25% off</span>
+                        <span class="deal-type">Limited Time Deal</span>
+                    </div>
+                    <p class="deal-price">$649.00 <span>List Price: $799.00</span></p>
+                    <p class="deal-title">Professional DSLR & Mirrorless Cameras</p>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="carousel-image-wrapper">
+                        <img src="images/audio_tech.png" alt="Headphones Deal">
+                    </div>
+                    <div class="deal-badge-row">
+                        <span class="discount-badge">Up to 15% off</span>
+                        <span class="deal-type">Limited Time Deal</span>
+                    </div>
+                    <p class="deal-price">$199.00 <span>List Price: $235.00</span></p>
+                    <p class="deal-title">Over-Ear Noise Cancelling Headphones</p>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="carousel-image-wrapper">
+                        <img src="images/gaming_gear.png" alt="Gaming Headset Deal">
+                    </div>
+                    <div class="deal-badge-row">
+                        <span class="discount-badge">Up to 20% off</span>
+                        <span class="deal-type">Deal of the Day</span>
+                    </div>
+                    <p class="deal-price">$79.99 <span>List Price: $99.99</span></p>
+                    <p class="deal-title">Immersive Sound Gaming Gear</p>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="carousel-image-wrapper">
+                        <img src="images/smart_home.png" alt="Smart Home Deal">
+                    </div>
+                    <div class="deal-badge-row">
+                        <span class="discount-badge">Up to 40% off</span>
+                        <span class="deal-type">Limited Time Deal</span>
+                    </div>
+                    <p class="deal-price">$39.99 <span>List Price: $65.00</span></p>
+                    <p class="deal-title">Home Automation & Assistant Hubs</p>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="carousel-image-wrapper">
+                        <img src="images/aesthetic_decor.png" alt="Decor Deal">
+                    </div>
+                    <div class="deal-badge-row">
+                        <span class="discount-badge">Up to 10% off</span>
+                        <span class="deal-type">Limited Time Deal</span>
+                    </div>
+                    <p class="deal-price">$26.99 <span>List Price: $29.99</span></p>
+                    <p class="deal-title">Minimalist Workspace Accent Lamps</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="grid-container" class="second-grid">
+            <div class="card">
+                <h2>Fitness tech updates</h2>
+                <div class="card-image">
+                    <img src="images/smart_watch.png" alt="Fitness Smart Watch">
+                </div>
+                <a href="#" class="card-link">Shop fitness wearables</a>
+            </div>
+
+            <div class="card">
+                <h2>Photography essentials</h2>
+                <div class="card-image">
+                    <img src="images/digital_camera.png" alt="DSLR Camera">
+                </div>
+                <a href="#" class="card-link">Explore mirrorless bodies</a>
+            </div>
+
+            <div class="card">
+                <h2>Studio acoustic gear</h2>
+                <div class="card-image">
+                    <img src="images/audio_tech.png" alt="Pro Audio Headphones">
+                </div>
+                <a href="#" class="card-link">Explore audiophile picks</a>
+            </div>
+
+            <div class="card">
+                <h2>Cozy lights & styling</h2>
+                <div class="card-image">
+                    <img src="images/aesthetic_decor.png" alt="Desk Succulent and Lamp">
+                </div>
+                <a href="#" class="card-link">Shop home accent styling</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <a href="#" id="back-to-top">Back to top</a>
+        <div class="footer-links">
+            <div class="footer-column">
+                <h3>Get to Know Us</h3>
+                <ul>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">About Amazon</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Make Money with Us</h3>
+                <ul>
+                    <li><a href="#">Sell on Amazon</a></li>
+                    <li><a href="#">Sell under Amazon Accelerator</a></li>
+                    <li><a href="#">Protect & Build Your Brand</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Amazon Payment Products</h3>
+                <ul>
+                    <li><a href="#">Amazon Visa</a></li>
+                    <li><a href="#">Amazon.com Store Card</a></li>
+                    <li><a href="#">Amazon Secured Card</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Made with &hearts; Balaji</p>
+            <p class="copyright">&#169; Do not copy my code. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
